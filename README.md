@@ -120,25 +120,6 @@ CountryManager\_JPA
 
 
 
-       ✅ Use  the Console menu to : 
-
-       === Country Manager ===
-
-         1. Add Country
-
-         2. Update Country
-
-          3. Delete Country
-
-           4. List All Countries
-
-           5. Search Country by Name
-
-           6. Exit
-
-             Choose an option: 1
-
-
 
 
 📌 Contact Details
