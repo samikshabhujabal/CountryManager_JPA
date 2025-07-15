@@ -12,8 +12,11 @@
 
 
 * Java
+* 
 * Hibernate (JPA)
+* 
 * PostgreSQL
+* 
 * Maven
 
 
@@ -90,58 +93,55 @@ CountryManager\_JPA
 ###### 📄 pom.xml Dependencies
 
 
- <dependencies>
-        <!-- ✅ Hibernate Core 7.x -->
-        <dependency>
+           <dependencies>
+          <!-- ✅ Hibernate Core 7.x -->
+            <dependency>
             <groupId>org.hibernate.orm</groupId>
             <artifactId>hibernate-core</artifactId>
             <version>7.0.5.Final</version>
-        </dependency>
+               </dependency>
 
-        <!-- ✅ Jakarta Persistence API (JPA 3.2) -->
-        <dependency>
-            <groupId>jakarta.persistence</groupId>
-            <artifactId>jakarta.persistence-api</artifactId>
-            <version>3.2.0</version>
-        </dependency>
-
-<dependency>
-    <groupId>org.postgresql</groupId>
-    <artifactId>postgresql</artifactId>
-    <version>42.7.7</version>
-</dependency>
-
- </dependencies>
-
-
-
-
-
-
-
-###### &nbsp;  ✅ Use  the Console menu to : 
+                <!-- ✅ Jakarta Persistence API (JPA 3.2) -->
+                 <dependency>
+                   <groupId>jakarta.persistence</groupId>
+                <artifactId>jakarta.persistence-api</artifactId>
+                 <version>3.2.0</version>
+               </dependency>
+               
+             <!-- ✅ postgreSQL JDBC Driver -->
+                 <dependency>
+           <dependency>
+               <groupId>org.postgresql</groupId>
+           <artifactId>postgresql</artifactId>
+            <version>42.7.7</version>
+         </dependency>
+           </dependencies>
 
 
 
 
 
+       ✅ Use  the Console menu to : 
 
 
-&nbsp;        === Country Manager ===
 
-&nbsp;     1. Add Country
 
-&nbsp;     2. Update Country
 
-&nbsp;     3. Delete Country
+       === Country Manager ===
 
-&nbsp;     4. List All Countries
+         1. Add Country
 
-&nbsp;     5. Search Country by Name
+         2. Update Country
 
-&nbsp;     6. Exit
+          3. Delete Country
 
-&nbsp;    Choose an option: 1
+           4. List All Countries
+
+           5. Search Country by Name
+
+           6. Exit
+
+             Choose an option: 1
 
 
 
