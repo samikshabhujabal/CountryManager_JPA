@@ -120,12 +120,7 @@ CountryManager\_JPA
 
 
 
-
        ✅ Use  the Console menu to : 
-
-
-
-
 
        === Country Manager ===
 
